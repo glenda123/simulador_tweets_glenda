@@ -47,13 +47,7 @@ export default function SendTweet(props) {
                 
             })
 
-            // if(toastProps= {open:true,text:'tweet  enviado correctamente'}
-            // ){
-            //     setTimeout(()=>{
-            //         setToastProps({open:false, text:null
-            //         })
-            //     },[4000])
-            // }
+            
             closeModal();
         }
         allTweetsArray= [];
