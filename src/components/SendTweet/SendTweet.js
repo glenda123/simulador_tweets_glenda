@@ -9,7 +9,7 @@ import {TWEETS_STORAGE} from '../../utils/constant';
 
 export default function SendTweet(props) {
     
-    const {toastProps, setToastProps, allTweets} = props
+    const { setToastProps, allTweets} = props
 
     const [isOpenModal, setIsOpenModal] = useState(false)
     
