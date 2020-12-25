@@ -10,6 +10,7 @@ export default function ModalContainer(props) {
             open={isOpenModal}
             onClose={closeModal}
             closeAfterTransition
+            xs={12}
         >
         <div>{children}</div>
         </Modal>
