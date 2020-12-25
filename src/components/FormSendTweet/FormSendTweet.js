@@ -27,7 +27,7 @@ export default function FormSendTweet(props) {
                     onChange={onFormChange}
                     
                     >
-                <FormControl fullWidth={true}>
+                <FormControl >
                     <FormGroup>
                         <TextField
                             className='form-send-tweet__form-name'
