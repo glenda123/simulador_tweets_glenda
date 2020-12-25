@@ -6,13 +6,13 @@ import useMediaQuery from '@material-ui/core/useMediaQuery';
 export default function ModalContainer(props) {
     const {isOpenModal, closeModal, children } = props;
 
-    const drawerWidth = {
+    // const drawerWidth = {
         
-        '@media (max-width: 575.98px)' : {
-          width: '98vw',
-          height: '98vh'
-        }
-      }
+    //     '@media (max-width: 575.98px)' : {
+    //       width: '98vw',
+    //       height: '98vh'
+    //     }
+    //   }
 
     return (
         <Modal
@@ -20,7 +20,7 @@ export default function ModalContainer(props) {
             open={isOpenModal}
             onClose={closeModal}
             closeAfterTransition
-            style={drawerWidth}
+         
         >
         <div>{children}</div>
         </Modal>
