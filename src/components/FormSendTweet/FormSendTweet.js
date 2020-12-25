@@ -33,7 +33,7 @@ export default function FormSendTweet(props) {
                     onChange={onFormChange}
                     
                     >
-                <FormControl  style={formWidth}>
+                <FormControl style={formWidth} >
                     <FormGroup>
                         <TextField
                             className='form-send-tweet__form-name'
@@ -41,6 +41,7 @@ export default function FormSendTweet(props) {
                             name='name'
                             placeholder='Nombre de usuario'
                             margin='normal'
+                            style={formWidth}
 
                         />
                     </FormGroup>
@@ -53,6 +54,7 @@ export default function FormSendTweet(props) {
                             rows='6'
                             placeholder='Escribe tu Tweet...'
                             margin='normal'
+                            style={formWidth}
 
 
                         />
