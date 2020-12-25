@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import {FormControl, FormGroup, TextField, Button } from '@material-ui/core';
+
 import './FormSendTweet.scss';
 
 export default function FormSendTweet(props) {
@@ -24,9 +25,9 @@ export default function FormSendTweet(props) {
             <form  className='form-send-tweet__form' 
                     onSubmit={ event => sendTweet(event, formValue)}
                     onChange={onFormChange}
-                    xs={6}
+                    
                     >
-                <FormControl>
+                <FormControl fullWidth={true}>
                     <FormGroup>
                         <TextField
                             className='form-send-tweet__form-name'
