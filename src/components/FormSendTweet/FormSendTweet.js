@@ -22,7 +22,7 @@ export default function FormSendTweet(props) {
     const formWidth = {
         
         '@media (max-width: 575.98px)' : {
-          width: '78%'
+          width: '95%'
         }
       }
     return(
