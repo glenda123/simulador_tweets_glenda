@@ -2,6 +2,13 @@
     display:flex;
     align-items:center;
     justify-content:center;
-    width:97vw;
-    height: 97vh;
+    
 }
+
+
+@media (max-width: 575.98px) {
+    .modal-container{
+        width:97vw;
+        height: 97vh;
+    }
+ }
