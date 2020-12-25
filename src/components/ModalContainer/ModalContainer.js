@@ -9,7 +9,7 @@ export default function ModalContainer(props) {
     const drawerWidth = {
         
         '@media (max-width: 575.98px)' : {
-          width: '70%'
+          width: '80%'
         }
       }
 

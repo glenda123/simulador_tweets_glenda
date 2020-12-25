@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {FormControl, FormGroup, TextField, Button } from '@material-ui/core';
-
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 import './FormSendTweet.scss';
 
 export default function FormSendTweet(props) {
@@ -19,6 +19,12 @@ export default function FormSendTweet(props) {
         })
     }
 
+    const formWidth = {
+        
+        '@media (max-width: 575.98px)' : {
+          width: '78%'
+        }
+      }
     return(
         <div className='form-send-tweet' >
             <h2 className='form-send-tweet__title'>Enviar Tweet </h2>
@@ -27,7 +33,7 @@ export default function FormSendTweet(props) {
                     onChange={onFormChange}
                     
                     >
-                <FormControl >
+                <FormControl  style={formWidth}>
                     <FormGroup>
                         <TextField
                             className='form-send-tweet__form-name'
