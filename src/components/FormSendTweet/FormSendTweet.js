@@ -19,11 +19,12 @@ export default function FormSendTweet(props) {
     }
 
     return(
-        <div className='form-send-tweet' xs={12}>
+        <div className='form-send-tweet' >
             <h2 className='form-send-tweet__title'>Enviar Tweet </h2>
             <form  className='form-send-tweet__form' 
                     onSubmit={ event => sendTweet(event, formValue)}
                     onChange={onFormChange}
+                    xs={6}
                     >
                 <FormControl>
                     <FormGroup>
